@@ -5,138 +5,113 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Batam Trip Itinerary - Oct 19–20, 2025</title>
 <style>
-  /* Reset & base */
   * {
     box-sizing: border-box;
   }
   body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background: #f0f4f8;
+    background: #eef5f9;
     color: #333;
     margin: 0;
     padding: 20px;
   }
-
   .container {
-    max-width: 600px;
+    max-width: 650px;
     margin: 0 auto;
     background: white;
-    border-radius: 8px;
-    padding: 30px 25px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 30px 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   }
-
   h1 {
     text-align: center;
-    font-weight: 700;
-    color: #2c3e50;
-    margin-bottom: 5px;
+    color: #1a73e8;
+    margin-bottom: 8px;
   }
-
   p.subtitle {
     text-align: center;
-    font-weight: 500;
-    color: #7f8c8d;
+    color: #5a5a5a;
     margin-top: 0;
     margin-bottom: 30px;
+    font-weight: 500;
   }
-
-  /* Timeline container */
-  .timeline {
-    position: relative;
-    padding-left: 30px;
-    border-left: 3px solid #3498db;
-  }
-
-  /* Each event */
-  .event {
-    position: relative;
-    margin-bottom: 30px;
-    padding-left: 20px;
-  }
-
-  .event:last-child {
-    margin-bottom: 0;
-  }
-
-  /* Dot on timeline */
-  .event::before {
-    content: "";
-    position: absolute;
-    left: -12px;
-    top: 5px;
-    width: 18px;
-    height: 18px;
-    background: #3498db;
-    border-radius: 50%;
-    border: 3px solid white;
-    box-shadow: 0 0 6px rgba(52,152,219,0.7);
-  }
-
-  .event-time {
-    font-weight: 700;
-    color: #2980b9;
-    margin-bottom: 5px;
-    font-size: 1rem;
-  }
-
-  .event-title {
-    font-weight: 600;
-    font-size: 1.1rem;
-    margin: 0 0 5px 0;
-  }
-
-  .event-details {
-    font-size: 0.9rem;
-    color: #555;
-  }
-
-  /* Sections */
   section {
     margin-bottom: 40px;
   }
-
-  /* Hotel card */
   .hotel-card {
-    background: #2ecc71;
+    background: #27ae60;
     color: white;
     padding: 20px 25px;
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(46,204,113,0.4);
+    box-shadow: 0 4px 12px rgba(39,174,96,0.4);
   }
-
   .hotel-card p {
     margin: 5px 0;
     font-weight: 600;
   }
-
-  /* Reminders list */
-  ul.reminders {
+  .timeline {
+    position: relative;
+    padding-left: 30px;
+    border-left: 4px solid #1a73e8;
+  }
+  .event {
+    position: relative;
+    margin-bottom: 28px;
     padding-left: 20px;
-    color: #34495e;
   }
-
-  ul.reminders li {
-    margin-bottom: 10px;
-    font-weight: 500;
+  .event:last-child {
+    margin-bottom: 0;
   }
-
+  .event::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 7px;
+    width: 20px;
+    height: 20px;
+    background: #1a73e8;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 8px rgba(26,115,232,0.7);
+  }
+  .event-time {
+    font-weight: 700;
+    color: #1a73e8;
+    font-size: 1.05rem;
+    margin-bottom: 6px;
+  }
+  .event-title {
+    font-weight: 600;
+    font-size: 1.15rem;
+    margin-bottom: 6px;
+  }
+  .event-details {
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.5;
+  }
   a.link {
-    color: #2980b9;
+    color: #1a73e8;
     text-decoration: none;
     font-weight: 600;
   }
   a.link:hover {
     text-decoration: underline;
   }
-
-  /* Responsive */
+  ul.reminders {
+    padding-left: 20px;
+    color: #34495e;
+  }
+  ul.reminders li {
+    margin-bottom: 12px;
+    font-weight: 500;
+  }
   @media (max-width: 480px) {
     .container {
       padding: 20px 15px;
     }
     .event-time, .event-title {
-      font-size: 0.95rem;
+      font-size: 1rem;
     }
   }
 </style>
@@ -155,90 +130,122 @@
     </section>
 
     <section>
-      <h2 style="color:#3498db; margin-bottom:15px;">Day 1 - Saturday, Oct 19</h2>
+      <h2 style="color:#1a73e8; margin-bottom:15px;">Day 1 - Saturday, Oct 19</h2>
       <div class="timeline">
+        <div class="event">
+          <div class="event-time">6:30 AM</div>
+          <div class="event-title">Leave for HarbourFront Ferry Terminal (Singapore)</div>
+          <div class="event-details">Ensure to arrive at terminal by 7:30 AM for check-in.</div>
+        </div>
         <div class="event">
           <div class="event-time">8:10 AM</div>
-          <div class="event-title">Ferry to Batam</div>
-          <div class="event-details">HarbourFront → Batam Centre (~1 hour trip)</div>
+          <div class="event-title">Ferry to Batam Centre</div>
+          <div class="event-details">Enjoy the scenic 1-hour ferry crossing.</div>
         </div>
         <div class="event">
-          <div class="event-time">9:10 AM</div>
-          <div class="event-title">Arrive in Batam</div>
-          <div class="event-details">Immigration & luggage pickup</div>
+          <div class="event-time">9:15 AM</div>
+          <div class="event-title">Arrival and Immigration</div>
+          <div class="event-details">Clear immigration, purchase local SIM if desired.</div>
         </div>
         <div class="event">
-          <div class="event-time">10:00 AM</div>
-          <div class="event-title">Breakfast</div>
-          <div class="event-details">Cafes at Nagoya Hill Mall</div>
+          <div class="event-time">9:45 AM</div>
+          <div class="event-title">Visit Maha Vihara Duta Maitreya Buddhist Temple</div>
+          <div class="event-details">Explore one of the largest Buddhist temples in Southeast Asia. Peaceful gardens and beautiful statues.</div>
+        </div>
+        <div class="event">
+          <div class="event-time">11:00 AM</div>
+          <div class="event-title">Explore Barelang Bridge</div>
+          <div class="event-details">Iconic landmark, perfect for photos and light sightseeing (~45 min visit).</div>
         </div>
         <div class="event">
           <div class="event-time">12:00 PM</div>
-          <div class="event-title">Lunch at <a href="https://goo.gl/maps/9zXb3WxrD6fxmZTi8" target="_blank" class="link">Sop Ikan 96</a></div>
-          <div class="event-details">Famous local fish soup</div>
+          <div class="event-title">Lunch at <a href="https://goo.gl/maps/h6xR5mWi98kTAzJdA" target="_blank" class="link">Sop Ikan 96</a></div>
+          <div class="event-details">Try the signature fish soup and other local dishes.</div>
         </div>
         <div class="event">
-          <div class="event-time">2:00 PM</div>
-          <div class="event-title">Hotel Check-in</div>
-          <div class="event-details">Settle in at iHotel Batam</div>
-        </div>
-        <div class="event" style="border-left-color:#27ae60;">
-          <div class="event-time" style="color:#27ae60;">4:00 PM</div>
-          <div class="event-title">Massage Appointment</div>
-          <div class="event-details">At Spa Central Batam (Baloi) / Tui Na Healthcare</div>
+          <div class="event-time">1:30 PM</div>
+          <div class="event-title">Check in at iHotel Batam</div>
+          <div class="event-details">Unpack, freshen up, and rest before afternoon plans.</div>
         </div>
         <div class="event">
-          <div class="event-time">6:00 PM</div>
-          <div class="event-title">Dinner</div>
-          <div class="event-details">Nagoya Hill Food Street</div>
+          <div class="event-time">3:30 PM</div>
+          <div class="event-title">Massage at Spa Central (Baloi)</div>
+          <div class="event-details">Relax with your booked Tui Na treatment or other massages.</div>
         </div>
         <div class="event">
-          <div class="event-time">8:00 PM</div>
-          <div class="event-title">Evening at <a href="https://goo.gl/maps/WNfnq5cN9wJY7gwj7" target="_blank" class="link">Blue Fire Beach Club</a></div>
-          <div class="event-details">Chill out with drinks & music</div>
+          <div class="event-time">5:00 PM</div>
+          <div class="event-title">Visit <a href="https://goo.gl/maps/WNfnq5cN9wJY7gwj7" target="_blank" class="link">Blue Fire Beach Club</a></div>
+          <div class="event-details">Enjoy sunset drinks, beach vibes, and live music.</div>
+        </div>
+        <div class="event">
+          <div class="event-time">7:30 PM</div>
+          <div class="event-title">Dinner at Nagoya Hill Food Street</div>
+          <div class="event-details">Try local street food or seafood specialties.</div>
+        </div>
+        <div class="event">
+          <div class="event-time">9:00 PM</div>
+          <div class="event-title">Return to Hotel and Rest</div>
+          <div class="event-details">Relax and recharge for next day.</div>
         </div>
       </div>
     </section>
 
     <section>
-      <h2 style="color:#3498db; margin-bottom:15px;">Day 2 - Sunday, Oct 20</h2>
+      <h2 style="color:#1a73e8; margin-bottom:15px;">Day 2 - Sunday, Oct 20</h2>
       <div class="timeline">
         <div class="event">
-          <div class="event-time">8:00 AM</div>
-          <div class="event-title">Breakfast at hotel</div>
-          <div class="event-details">Start your day fresh</div>
+          <div class="event-time">7:30 AM</div>
+          <div class="event-title">Wake Up & Breakfast at Hotel</div>
+          <div class="event-details">Enjoy a leisurely morning meal.</div>
         </div>
         <div class="event">
-          <div class="event-time">10:00 AM</div>
-          <div class="event-title">Explore / Shopping</div>
-          <div class="event-details">Batam Mega Mall or BCS Mall</div>
+          <div class="event-time">9:00 AM</div>
+          <div class="event-title">Visit Taman Wisata Muka Kuning</div>
+          <div class="event-details">A beautiful waterfront park perfect for morning strolls, local culture, and photo ops.</div>
+        </div>
+        <div class="event">
+          <div class="event-time">10:30 AM</div>
+          <div class="event-title">Visit Batam Miniature Park (Taman Mini Indonesia Indah Batam)</div>
+          <div class="event-details">Explore Indonesian culture and architecture in miniature. Great for quick cultural immersion.</div>
         </div>
         <div class="event">
           <div class="event-time">12:00 PM</div>
-          <div class="event-title">Hotel Check-out</div>
-          <div class="event-details">Leave luggage at reception if needed</div>
+          <div class="event-title">Lunch at local café near hotel</div>
+          <div class="event-details">Try local specialties or light bites.</div>
         </div>
         <div class="event">
-          <div class="event-time">1:00 PM</div>
-          <div class="event-title">Lunch (optional)</div>
-          <div class="event-details">Try local dishes or revisit favorites</div>
+          <div class="event-time">1:30 PM</div>
+          <div class="event-title">Visit Mega Wisata Ocarina Batam Theme Park</div>
+          <div class="event-details">Enjoy some fun rides, beach views, and photo spots (if time allows).</div>
         </div>
         <div class="event">
-          <div class="event-time">4:45 PM</div>
-          <div class="event-title">Ferry back to Singapore</div>
-          <div class="event-details">Batam Centre → HarbourFront</div>
+          <div class="event-time">3:00 PM</div>
+          <div class="event-title">Return to Hotel & Pack</div>
+          <div class="event-details">Prepare for check-out and luggage.</div>
+        </div>
+        <div class="event">
+          <div class="event-time">3:30 PM</div>
+          <div class="event-title">Head to Batam Centre Ferry Terminal</div>
+          <div class="event-details">Taxi or Grab (~25 min), allow time for immigration.</div>
+        </div>
+        <div class="event">
+          <div class="event-time">4:15 PM</div>
+          <div class="event-title">Ferry Departure to Singapore</div>
+          <div class="event-details">Relax on ferry and arrive HarbourFront by ~5:15 PM.</div>
         </div>
       </div>
     </section>
 
     <section>
-      <h2 style="color:#3498db; margin-bottom:15px;">Reminders</h2>
+      <h2 style="color:#1a73e8; margin-bottom:15px;">Reminders</h2>
       <ul class="reminders">
         <li>Passport with at least 6 months validity</li>
-        <li>Ferry tickets (round trip)</li>
-        <li>Indonesian Rupiah (IDR) cash or card</li>
-        <li>Mobile data or local SIM</li>
-        <li>Travel insurance (optional but recommended)</li>
+        <li>Ferry tickets (round trip) – keep printed or digital copies handy</li>
+        <li>Indonesian Rupiah (IDR) cash and cards accepted in many places</li>
+        <li>Local SIM or roaming data for navigation and calls</li>
+        <li>Comfortable clothes and swimwear for beach club</li>
+        <li>Travel insurance (recommended)</li>
+        <li>Keep some small change for taxis and street vendors</li>
       </ul>
     </section>
   </div>
