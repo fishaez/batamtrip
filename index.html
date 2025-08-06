@@ -1,162 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Batam Trip Itinerary - Oct 19–20, 2025</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
     body {
-      font-family: Arial, sans-serif;
-      background: #f9f9f9;
-      color: #333;
-      padding: 20px;
-      max-width: 800px;
-      margin: auto;
-    }
-    h1, h2 {
+      font-family: 'Poppins', sans-serif;
+      background: #fffaf0;
       color: #2c3e50;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
     }
-    table {
+
+    .container {
+      max-width: 700px;
       width: 100%;
-      border-collapse: collapse;
-      margin-top: 20px;
+      background: #ffffff;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      padding: 30px 40px;
     }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 10px;
-      text-align: left;
+
+    h1 {
+      text-align: center;
+      font-weight: 600;
+      color: #1d3557;
+      margin-bottom: 10px;
     }
-    th {
-      background-color: #3498db;
-      color: white;
-    }
-    tr:nth-child(even) {
-      background-color: #f4f4f4;
-    }
-    .section {
+
+    h2 {
+      border-bottom: 2px solid #f4a261;
+      padding-bottom: 6px;
+      color: #e76f51;
       margin-top: 40px;
+      margin-bottom: 15px;
     }
-    .highlight {
-      background-color: #e8fbe8;
-      padding: 10px;
-      border-left: 4px solid #27ae60;
+
+    .card {
+      background: #f4a261;
+      border-radius: 10px;
+      padding: 18px 24px;
+      margin-bottom: 18px;
+      color: white;
+      box-shadow: 0 4px 10px rgba(244, 162, 97, 0.3);
+    }
+
+    .card.highlight {
+      background: #2a9d8f;
+      box-shadow: 0 4px 10px rgba(42, 157, 143, 0.5);
+    }
+
+    .time {
+      font-weight: 600;
+      font-size: 1.1em;
+      margin-bottom: 6px;
+      color: #264653;
+    }
+
+    .activity {
+      font-weight: 600;
+      font-size: 1.25em;
+      margin-bottom: 4px;
+    }
+
+    .notes {
+      font-style: italic;
+      font-size: 0.9em;
+      color: #264653cc;
+    }
+
+    ul.reminders {
+      padding-left: 18px;
+      margin-top: 0;
+      color: #264653;
+    }
+
+    ul.reminders li {
+      margin-bottom: 8px;
+    }
+
+    a.link {
+      color: #e76f51;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a.link:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 20px 15px;
+      }
     }
   </style>
 </head>
 <body>
 
-  <h1>🧳 Batam Trip Itinerary: Oct 19–20, 2025</h1>
+  <div class="container">
+    <h1>🧳 Batam Trip Itinerary</h1>
+    <p style="text-align:center; font-weight:600; color:#264653; margin-top:-10px;">October 19–20, 2025</p>
 
-  <div class="section">
     <h2>🏨 Hotel Details</h2>
-    <p><strong>Hotel:</strong> iHotel Batam</p>
-    <p><strong>Address:</strong> Jl. Teuku Umar, Lubuk Baja Kota, Kec. Lubuk Baja, Kota Batam</p>
-    <p><strong>Check-in:</strong> October 19, 2025 (2:00 PM)</p>
-    <p><strong>Check-out:</strong> October 20, 2025 (12:00 PM)</p>
-  </div>
+    <div class="card">
+      <p><strong>iHotel Batam</strong><br />Jl. Teuku Umar, Lubuk Baja Kota, Kec. Lubuk Baja, Kota Batam</p>
+      <p><strong>Check-in:</strong> Oct 19, 2:00 PM<br /><strong>Check-out:</strong> Oct 20, 12:00 PM</p>
+    </div>
 
-  <div class="section">
-    <h2>📅 Itinerary Overview</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Date</th>
-          <th>Time</th>
-          <th>Activity</th>
-          <th>Notes</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Sat, Oct 19</td>
-          <td>08:10 AM</td>
-          <td>Ferry to Batam</td>
-          <td>HarbourFront → Batam Centre (~1hr trip)</td>
-        </tr>
-        <tr>
-          <td>Sat, Oct 19</td>
-          <td>09:10 AM</td>
-          <td>Arrive in Batam</td>
-          <td>Proceed through immigration</td>
-        </tr>
-        <tr>
-          <td>Sat, Oct 19</td>
-          <td>10:00 AM</td>
-          <td>Light breakfast / coffee</td>
-          <td>At Nagoya Hill or nearby cafe</td>
-        </tr>
-        <tr>
-          <td>Sat, Oct 19</td>
-          <td>12:00 PM</td>
-          <td>Lunch</td>
-          <td>Suggestion: Golden Prawn or local restaurant</td>
-        </tr>
-        <tr>
-          <td>Sat, Oct 19</td>
-          <td>02:00 PM</td>
-          <td>Hotel Check-in</td>
-          <td>iHotel Batam</td>
-        </tr>
-        <tr class="highlight">
-          <td>Sat, Oct 19</td>
-          <td>04:00 PM</td>
-          <td>Massage Appointment</td>
-          <td>✅ Booked at Spa Central Batam (Baloi) or Tui Na Healthcare</td>
-        </tr>
-        <tr>
-          <td>Sat, Oct 19</td>
-          <td>06:00 PM</td>
-          <td>Dinner</td>
-          <td>Try Nagoya Hill Food Street or BCS Mall area</td>
-        </tr>
-        <tr>
-          <td>Sat, Oct 19</td>
-          <td>08:00 PM</td>
-          <td>Relax / Explore</td>
-          <td>Optional nightlife or drinks nearby</td>
-        </tr>
-        <tr>
-          <td>Sun, Oct 20</td>
-          <td>08:00 AM</td>
-          <td>Hotel Breakfast</td>
-          <td>Included in stay</td>
-        </tr>
-        <tr>
-          <td>Sun, Oct 20</td>
-          <td>10:00 AM</td>
-          <td>Explore / Shopping</td>
-          <td>BCS Mall or Batam Mega Mall</td>
-        </tr>
-        <tr>
-          <td>Sun, Oct 20</td>
-          <td>12:00 PM</td>
-          <td>Hotel Check-out</td>
-          <td>Leave luggage at reception if needed</td>
-        </tr>
-        <tr>
-          <td>Sun, Oct 20</td>
-          <td>01:00 PM</td>
-          <td>Lunch</td>
-          <td>Local restaurant or mall</td>
-        </tr>
-        <tr>
-          <td>Sun, Oct 20</td>
-          <td>04:45 PM</td>
-          <td>Ferry to Singapore</td>
-          <td>Batam Centre → HarbourFront (Reach 30 mins before)</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+    <h2>📅 Day 1: Saturday, Oct 19</h2>
 
-  <div class="section">
+    <div class="card">
+      <div class="time">8:10 AM</div>
+      <div class="activity">Ferry to Batam</div>
+      <div class="notes">HarbourFront → Batam Centre (~1 hour)</div>
+    </div>
+
+    <div class="card">
+      <div class="time">9:10 AM</div>
+      <div class="activity">Arrive at Batam Centre</div>
+      <div class="notes">Immigration & luggage pickup</div>
+    </div>
+
+    <div class="card">
+      <div class="time">10:00 AM</div>
+      <div class="activity">Light Breakfast</div>
+      <div class="notes">At Nagoya Hill mall cafes</div>
+    </div>
+
+    <div class="card">
+      <div class="time">12:00 PM</div>
+      <div class="activity">Lunch at <a href="https://goo.gl/maps/9zXb3WxrD6fxmZTi8" target="_blank" class="link">Sop Ikan 96</a></div>
+      <div class="notes">Famous fish soup, great local flavor</div>
+    </div>
+
+    <div class="card">
+      <div class="time">2:00 PM</div>
+      <div class="activity">Check-in at iHotel Batam</div>
+      <div class="notes">Settle in and rest</div>
+    </div>
+
+    <div class="card highlight">
+      <div class="time">4:00 PM</div>
+      <div class="activity">Massage Appointment</div>
+      <div class="notes">At Spa Central Batam (Baloi) / Tui Na Healthcare</div>
+    </div>
+
+    <div class="card">
+      <div class="time">6:00 PM</div>
+      <div class="activity">Dinner & Relax</div>
+      <div class="notes">Explore Nagoya Hill Food Street</div>
+    </div>
+
+    <div class="card">
+      <div class="time">8:00 PM</div>
+      <div class="activity">Evening Leisure at <a href="https://goo.gl/maps/WNfnq5cN9wJY7gwj7" target="_blank" class="link">Blue Fire Beach Club</a></div>
+      <div class="notes">Chill by the beach, drinks & music</div>
+    </div>
+
+    <h2>📅 Day 2: Sunday, Oct 20</h2>
+
+    <div class="card">
+      <div class="time">8:00 AM</div>
+      <div class="activity">Breakfast at hotel</div>
+      <div class="notes">Start the day fresh</div>
+    </div>
+
+    <div class="card">
+      <div class="time">10:00 AM</div>
+      <div class="activity">Explore or Shopping</div>
+      <div class="notes">Batam Mega Mall or BCS Mall</div>
+    </div>
+
+    <div class="card">
+      <div class="time">12:00 PM</div>
+      <div class="activity">Check-out</div>
+      <div class="notes">Leave luggage if needed</div>
+    </div>
+
+    <div class="card">
+      <div class="time">1:00 PM</div>
+      <div class="activity">Lunch (optional)</div>
+      <div class="notes">Try local food or revisit favorites</div>
+    </div>
+
+    <div class="card">
+      <div class="time">4:45 PM</div>
+      <div class="activity">Ferry back to Singapore</div>
+      <div class="notes">Batam Centre → HarbourFront</div>
+    </div>
+
     <h2>✅ Reminders</h2>
-    <ul>
-      <li>Bring passport (must have 6 months validity)</li>
-      <li>Ferry tickets (HarbourFront ↔ Batam Centre)</li>
-      <li>Indonesian Rupiah cash or card</li>
-      <li>Mobile data roaming / SIM</li>
-      <li>Travel insurance (optional but recommended)</li>
+    <ul class="reminders">
+      <li>Bring passport (6 months validity)</li>
+      <li>Carry ferry tickets for both ways</li>
+      <li>Have Indonesian Rupiah (IDR) cash or cards ready</li>
+      <li>Arrange mobile data or local SIM card</li>
+      <li>Consider travel insurance</li>
     </ul>
+
   </div>
 
 </body>
